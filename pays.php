@@ -50,7 +50,8 @@ function creation_destinations(){
     <button class="country-button" data-country="Chine">Chine</button>
     <button class="country-button" data-country="Grèce">Grèce</button>
     <button class="country-button" data-country="Suisse">Suisse</button>
-</div><div class="contenu__restapi"></div>';
+</div>
+<div class="contenu__restapi"></div>';
 
     return $contenu;
 }

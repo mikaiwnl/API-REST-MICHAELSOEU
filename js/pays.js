@@ -1,8 +1,8 @@
 (function () {
     console.log("rest API")
     // URL de l'API REST de WordPress
-    let bouton_categorie = document.querySelectorAll(".country-buttons");
-
+    let bouton_categorie = document.querySelectorAll(".country-button");
+    console.log(bouton_categorie);
     function recherchePays(pays) { 
       let url = `https://gftnth00.mywhc.ca/tim27/wp-json/wp/v2/posts?search=${pays}`;
         // Effectuer la requête HTTP en utilisant fetch()
