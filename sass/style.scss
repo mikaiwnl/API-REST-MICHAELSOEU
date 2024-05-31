@@ -1,0 +1,22 @@
+.contenu_restapi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  
+    
+}
+
+ .restapi_carte{
+    display: flex;
+    border: 3px solid var(--couleur-arriere-galerie);
+    flex:  1 0 250px;
+ }
+
+ p{
+    font-size: 1rem;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
